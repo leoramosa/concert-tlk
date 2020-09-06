@@ -26,13 +26,11 @@
 
 .main-event-concert {
   padding: 0;
-  background: url('../images/back.jpg') no-repeat center;
+  background: url('../images/back.jpg') no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 100%;
-  width: 100%;
 }
 
 .title-next {
@@ -4412,11 +4410,27 @@ body > .jcf-select-drop.jcf-drop-flipped {
     position: relative;
   }
 }
+@media only screen and (min-width: 768px) {
+  .img-mobile-d {
+    display: none;
+  }
+}
 @media only screen and (max-width: 768px) {
   .content-description {
     width: 300px;
   }
   .footer {
+    display: none;
+  }
+
+  .main-event-concert {
+    background: none;
+  }
+  .title-next {
+    display: none;
+  }
+
+  .david {
     display: none;
   }
 }
