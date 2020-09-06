@@ -26,6 +26,13 @@
 
 .main-event-concert {
   padding: 0;
+  background: url('../images/back.jpg') no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .title-next {
@@ -34,12 +41,6 @@
 }
 .content-david {
   position: relative;
-  background: url('../images/back.jpg') no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .first-david {
