@@ -36,6 +36,10 @@
   position: relative;
   background: url('../images/back.jpg') no-repeat center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .first-david {
